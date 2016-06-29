@@ -404,35 +404,35 @@ footer {
 }
 
 .media .fb {
-  background: url(../images/social.jpg) 0 0;
+  background: url(../images/social.png) #fff 0 0;
 }
 
 .media .google {
-  background: url(../images/social.jpg) -32px 0;
+  background: url(../images/social.png) #fff -32px 0;
 }
 
 .media .twitter {
-  background: url(../images/social.jpg) -64px 0;
+  background: url(../images/social.png) #fff -64px 0;
 }
 
 .media .in {
-  background: url(../images/social.jpg) -96px 0;
+  background: url(../images/social.png) #fff -96px 0;
 }
 
 .media .youtube {
-  background: url(../images/social.jpg) -128px 0;
+  background: url(../images/social.png) #fff -128px 0;
 }
 
 .media .blogger {
-  background: url(../images/social.jpg) -160px 0;
+  background: url(../images/social.png) #fff -160px 0;
 }
 
 .media .rss {
-  background: url(../images/social.jpg) -192px 0;
+  background: url(../images/social.png) #fff -192px 0;
 }
 
 .media .dribbble {
-  background: url(../images/social.jpg) -224px 0;
+  background: url(../images/social.png) #fff -224px 0;
 }
 
 .media .dribbble {
@@ -484,21 +484,21 @@ footer {
 .icon .location {
   width:30px;
   height:30px;
-  background: url(../images/contact.jpg) 0 0;
+  background: url(../images/contact.png) #fff 0 0;
   float:left;
 }
 
 .icon .phone {
   width:30px;
   height:30px;
-  background: url(../images/contact.jpg) 0 -62px;
+  background: url(../images/contact.png) #fff 0 -62px;
   float:left;
 }
 
 .icon .mail {
   width:30px;
   height:30px;
-  background: url(../images/contact.jpg) 0 -125px;
+  background: url(../images/contact.png) #fff 0 -125px;
   float:left;
 }
 
@@ -529,7 +529,7 @@ footer {
 .contact_info .post {
   width:30px;
   height:30px;
-  background: url(../images/email.jpg);
+  background: url(../images/email.png) #fff;
   border:none;
   outline:none;
   cursor:pointer;
