@@ -195,18 +195,54 @@ ul .active {
   height:auto;
 }
 
-.gallery img {
-  width:31%;
-  height:auto;
-  display:inline-block;
-  margin:0 20px 60px 0;
+.port_1 {
+  background: url(../images/first.jpg) center no-repeat;
 }
 
-.gallery img:nth-child(3n) {
-  margin-right:0;
+
+.port_2 {
+  background: url(../images/second.jpg) center no-repeat;
 }
 
-.gallery img:hover {
+
+.port_3 {
+  background: url(../images/third.jpg) center no-repeat;
+}
+
+.port_4 {
+  background: url(../images/fourth.jpg) center no-repeat;
+}
+
+
+.port_5 {
+  background: url(../images/fifth.jpg) center no-repeat;
+}
+
+.port_6 {
+  background: url(../images/sixth.jpg) center no-repeat;
+}
+
+.port_7 {
+  background: url(../images/seventh.jpg) center no-repeat;
+}
+
+
+.port_8 {
+  background: url(../images/eighth.jpg) center no-repeat;
+}
+
+
+.port_9 {
+  background: url(../images/ninth.jpg) center no-repeat;
+}
+
+@media (min-width:1531px) {
+  .gallery li:nth-child(3n) {
+    margin-right:0;
+  }
+}
+
+.gallery li:hover {
   -moz-transition: all 1s ease-out;
   -o-transition: all 1s ease-out;
   -webkit-transition: all 1s ease-out;
@@ -215,9 +251,64 @@ ul .active {
   top:-10px;
 }
 
-.gallery img {
+.gallery li {
+  display:inline-block;
+  width:490px;
+  min-height:350px;
+  height:auto;
   position:relative;
+  margin:0 20px 60px 0;
   top:0;
+}
+
+.gallery li div {
+  max-width:531px;
+  height:350px;
+}
+
+.gallery li div:hover {
+  background-color:rgba( 255, 255, 0, 0.7);
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -ms-transition:all 1s ease-out;
+  transition:all 1s ease-out;
+}
+
+@media (max-width:1530px) {
+  .gallery li {
+    width:531px;
+    margin:0 0 60px 0;
+  }
+
+  .gallery li:nth-child(1), .gallery li:nth-child(3), .gallery li:nth-child(5), .gallery li:nth-child(7) {
+    margin-right:5%;
+  }
+}
+
+@media (max-width:1137px) {
+  .gallery li {
+    margin:0 1% 60px 1%;
+  }
+  .gallery li:nth-child(1), .gallery li:nth-child(3), .gallery li:nth-child(5), .gallery li:nth-child(7) {
+    margin-right:1%;
+  }
+}
+
+@media (max-width:600px) {
+  .gallery li {
+    width:90%;
+    margin:0 0 10px 0;
+    background-size:100%;
+  }
+
+  .gallery li div:hover {
+    background:none;
+  }
+
+  .gallery li:nth-child(1), .gallery li:nth-child(3), .gallery li:nth-child(5), .gallery li:nth-child(7) {
+    margin:0 0 10px 0;
+  }
 }
 
 /* content ends */
